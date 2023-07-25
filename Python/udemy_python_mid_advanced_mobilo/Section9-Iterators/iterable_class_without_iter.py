@@ -40,11 +40,11 @@ class Combinations:
         return self.iterator
     
  
-products = ["Product {}".format(i) for i in range(1, 500)]
+products = ["Product {}".format(i) for i in range(1, 4)]
  
-promotions = ["Promotion {}".format(i) for i in range(1, 50)]
+promotions = ["Promotion {}".format(i) for i in range(1, 3)]
  
-customers = ['Customer {}'.format(i) for i in range(1, 500)]
+customers = ['Customer {}'.format(i) for i in range(1, 5)]
 
 combinations = Combinations(products, promotions, customers)
 for c in combinations:
